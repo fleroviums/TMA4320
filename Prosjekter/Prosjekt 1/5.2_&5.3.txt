@@ -1,0 +1,36 @@
+
+Task 5.2
+In this task Tp increases for each cycle, i.e. the particles get an increasing amount of time to perform
+random walk. An important thing to notice is also that the system is reset for every new Tp. Hence for the first few Tp's 
+one can expect that there won't be much movement as the particles haven't had time to spread out whilst they were in V2. When
+they later arrive in V1 they will be close to the minima in 0 and 90 and one cannot expect a net current in any particular
+direction, as they will cancel out. As Tp's value increases the particles get more spread out during their time in V2 and
+as the alpha used here is equal to 0.8 a great proportion of the particles will have a higher probability of moving to the left. 
+This will be explained in greater detail in the discussion involving task 5.3. As a consequence of this, one would expect 
+the average current to become increasingly negative as Tp's value gets bigger.
+The graph obtained in 5.2 shows that as Tp gets bigger the net current becomes somewhat more negative, i.e more particles 
+move to the left, but the tendency is not as clear as one might have expected. Also it is not quite clear why in the beginning the
+average current increases dramatically from the value of -0.05 to approximately 0.00. 
+
+
+Task 5.3
+
+As alpha defines the x-positions of the sawtooth wave's maxima, and alpha 
+is defined in the interval 0 to 1, one can agree that 0.5 must give a symmetric potential.
+This meaning that the sawtooth wave is just as steep, on either side of the maxima.
+Furthermore, for an alpha equal to 0.2 the sawtooth wave will be steeper on the left 
+side of the maxima, compared to the right side. Therefore when the particles arrive at the 
+sawtooth wave after being in potential V2 a greater proportion will arrive at the right side
+of the two maxima and as time goes on and the particles go through the random walk, the particles on the right
+side of the maxima will move towards the minima, i.e. right. The same argument holds for an alpha greater than 0.5,
+only in this case the sawtooth wave will be steeper on the right side and the particles will hence tend to move left rather
+than right. 
+To summarize this, as alpha inreases from 0 to 1, the particles will have a higher probability of moving
+to the right for alpha less than 0.5, then around alpha equal to 0.5 the particles will
+have a high probability of staying put and in the end between 0.5 to 1 they will have a high 
+probability of moving to the left. 
+One can see this clearly in the graph obtained in task 5.3. As alpha increases from approximately 0.0 to 0.04, 
+the average current decreases from approximately 0.04 to 0.00. This is equivalent with the fact that the particles
+are moving less and less to the right, during this interval. One can also see that the graph flattens out around 0.5 
+with an average current around 0.0. At last, as alpha increases to 1 the graph again becomes more steep and the average current
+now becomes increasingly negative.    
